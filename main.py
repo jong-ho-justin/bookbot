@@ -50,8 +50,6 @@ def count_letters(texts):
         "z": 0
     }
 
-    # words = texts.split()  // cleans up spaces, but not needed?
-
     # iterates over each letter in string and adds to count_of_letters dictionary based on the lowercase version of letter. Doesn't clean up non-letters
     for word in texts:
         if word.lower() in counts_of_letters:
